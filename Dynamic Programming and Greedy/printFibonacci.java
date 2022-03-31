@@ -1,6 +1,6 @@
 // Print fibonacci
 
-public class question1 {
+public class printFibonacci {
     // using recursion
     public int fibRecur(int n){
         if(n == 0 || n == 1){

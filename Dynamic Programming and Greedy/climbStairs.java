@@ -1,6 +1,6 @@
 // Climb Stairs
 
-public class question2 {
+public class climbStairs {
     public int climbStairsTab(int n){
         int[] dp = new int[n + 1];
         dp[0] = 1;

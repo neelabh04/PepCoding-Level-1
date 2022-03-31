@@ -1,9 +1,7 @@
-package Arrays;
-
 // Decimal to any base
 
-public class question2 {
-    public int getValueInBase(int n, int b){
+public class getValueInBase {
+    public int solution(int n, int b){
         int ans = 0;
         int power = 1;
         while(n != 0){

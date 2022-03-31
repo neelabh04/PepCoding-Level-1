@@ -1,9 +1,7 @@
-package Arrays;
-
 // Digit Frequency
 
-public class question1 {
-    public int getDigitFrequency(int n, int d){
+public class getDigitFrequency {
+    public int solution(int n, int d){
         int count = 0;
         int divisor = 10;
         while(n != 0){

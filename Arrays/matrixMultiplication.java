@@ -1,4 +1,4 @@
-package Arrays;
+// Matrix Multiplication
 
 public class matrixMultiplication {
     public void solution(int[][] mat1, int[][] mat2){

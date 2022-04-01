@@ -1,5 +1,3 @@
-package Arrays;
-
 // State of Wakanda - 1 (Wave Display)
 
 public class wakanda1 {

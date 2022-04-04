@@ -1,21 +1,19 @@
-public class bubbleSort {
-    public static void bubbling(int[] arr) {
+public class selectionSort {
+    
+    public static void selection(int[] arr){
         // outer loop is for total number of iterations = length of array - 1
-        for (int i = 1; i <= arr.length - 1; i++) {
+        // in first iteration we find the smallest element in the array and swap with the first element present in the array
+        // this makes sure that the smallest element is at the beginning of the sorted array
+        for(int i = 1; i <= arr.length; i++){
+            int min = i;
+            for(int j = 0; j < arr.length; j++){
 
-            // yaha pe jitni iterations ho chuki hongi utne bande sort ho chuke honge
-            for (int j = 0; j < arr.length - i; j++){
-
-                // har koi apne peeche waale se compare hota hai 
-                if (isSmaller(arr, j + 1, j)) {
-
-                    // aisa karne se sabse biggest element apni sahi index pe aajata hai i.e at its last position in the sorted array
-                    swap(arr, j + 1, j);
-
+                if(isSmaller(arr, j, min)){
+                    min = j; 
                 }
             }
+            swap(arr, arr[j], arr[i]);
         }
-
     }
 
     // used for swapping ith and jth elements of array

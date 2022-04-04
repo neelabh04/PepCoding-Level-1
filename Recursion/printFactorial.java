@@ -6,7 +6,7 @@ public class printFactorial {
             return 1;
         }
 
-        int ans = n * factorial(n - 1);
+        int ans = n * solution(n - 1);
         return ans;
     }
 }

@@ -1,6 +1,6 @@
 public class targetSumSubsets {
 
-    printTargetSumSubsets(arr, 0, "", 0, tar);
+    // printTargetSumSubsets(arr, 0, "", 0, tar);
     
     public static void printTargetSumSubsets(int[] arr, int idx, String set, int sos, int tar) {
         if(idx == arr.length){

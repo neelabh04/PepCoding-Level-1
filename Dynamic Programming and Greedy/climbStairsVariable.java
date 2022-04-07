@@ -2,7 +2,7 @@
 
 public class climbStairsVariable {
     public int solution (int[] arr){
-        size = arr.length;
+        int size = arr.length;
         int[] dp = new int[size + 1];
         dp[size] = 1;
         for(int i = size - 1; i >= 0; i--){

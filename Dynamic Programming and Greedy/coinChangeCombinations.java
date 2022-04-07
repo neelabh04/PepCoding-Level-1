@@ -3,7 +3,7 @@ public class coinChangeCombinations {
         int[] dp = new int[amt + 1];
         dp[0] = 1;
 
-        for (int coin : coins) {
+        for (int coin : arr) {
             for (int i = 1; i < dp.length; i++) {
                 if (i >= coin) {
                     dp[i] += dp[i - coin];
